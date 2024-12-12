@@ -14,7 +14,7 @@ enum class NearbyCategoryFilterChipView (
     ENTRETENIMENTO(description = "Cinema", icon = R.drawable.ic_movie),
     FARMACIA(description = "Farmácia", icon = R.drawable.ic_first_aid_kit),
     COMBUSTIVEL(description = "Combustível", icon = R.drawable.ic_gas_station),
-    PADARIA(description = "Padaria", icon = R.drawable.ic_bakery),
+    PADARIA(description = "Padaria", icon = R.drawable.ic_bakery);
 
 
     companion object {
