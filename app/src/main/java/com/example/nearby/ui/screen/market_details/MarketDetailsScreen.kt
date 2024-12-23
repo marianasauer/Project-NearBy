@@ -1,4 +1,4 @@
-package com.example.nearby.ui.screen
+package com.example.nearby.ui.screen.market_details
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -29,7 +29,6 @@ import com.example.nearby.data.model.mock.mockMarkets
 import com.example.nearby.ui.component.button.NearByButton
 import com.example.nearby.ui.component.market_details.NearbyMarketDetailsCoupons
 import com.example.nearby.ui.component.market_details.NearbyMarketDetailsInfos
-import com.example.nearby.ui.component.market_details.NearbyMarketDetailsRules
 import com.example.nearby.ui.theme.Typography
 
 @Composable
