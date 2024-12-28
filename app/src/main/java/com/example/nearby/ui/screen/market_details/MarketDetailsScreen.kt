@@ -95,8 +95,8 @@ fun MarketDetailsScreen(
                         )
                     }
 
-
-                    NearbyMarketDetailsCoupons(coupons = listOf("ABC12345"))
+                    if (!uiState.coupon.isNullOrEmpty())
+                        NearbyMarketDetailsCoupons(coupons = listOf( uiState.coupon))
                 }
 
                 NearByButton(modifier = Modifier
